@@ -1,0 +1,7 @@
+package javaOOP.criacaoDeClasses.calculadora;
+
+public class Calculadora {
+    public int dobrarNumero(int numero) {
+        return numero * 2;
+    }
+}
