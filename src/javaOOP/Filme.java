@@ -8,6 +8,10 @@ public class Filme {
     private int totalDeAvaliacoes;
     int duracaoEmMinutos;
 
+    public int getTotalDeAvaliacoes() {
+        return totalDeAvaliacoes;
+    }
+
     void exibeFichaTecnica() {
         System.out.println(STR."""
                 Nome do filme: \{nome}
