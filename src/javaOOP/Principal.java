@@ -1,5 +1,7 @@
 package javaOOP;
 
+import javaOOP.br.com.alura.screenmatch.modelos.Filme;
+
 public class Principal {
     public static void main(String[] args) {
         Filme meuFilme = new Filme();

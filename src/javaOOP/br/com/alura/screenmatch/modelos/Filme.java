@@ -1,4 +1,4 @@
-package javaOOP;
+package javaOOP.br.com.alura.screenmatch.modelos;
 
 public class Filme {
     String nome;
@@ -12,19 +12,23 @@ public class Filme {
         return totalDeAvaliacoes;
     }
 
-    void exibeFichaTecnica() {
+    public double getSomaDasAvaliacoes() {
+        return somaDasAvaliacoes;
+    }
+
+    public double getMediaAvaliacoes() {
+        return somaDasAvaliacoes / totalDeAvaliacoes;
+    }
+
+    public void exibeFichaTecnica() {
         System.out.println(STR."""
                 Nome do filme: \{nome}
                 Ano de laçamento: \{anoDeLancamento}
                 """);
     }
 
-    void avalia(double nota) {
+    public void avalia(double nota) {
         somaDasAvaliacoes += nota;
         totalDeAvaliacoes++;
-    }
-
-    double getMediaAvaliacoes() {
-        return somaDasAvaliacoes / totalDeAvaliacoes;
     }
 }
