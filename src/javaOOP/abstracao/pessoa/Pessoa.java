@@ -1,4 +1,4 @@
-package javaOOP.criacaoDeClasses.pessoa;
+package javaOOP.abstracao.pessoa;
 
 public class Pessoa {
     void saudacao() {

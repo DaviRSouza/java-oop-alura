@@ -1,4 +1,4 @@
-package javaOOP.criacaoDeClasses.musica;
+package javaOOP.abstracao.musica;
 
 public class Musica {
     String titulo;

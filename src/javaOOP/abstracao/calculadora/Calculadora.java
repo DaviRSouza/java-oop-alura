@@ -1,4 +1,4 @@
-package javaOOP.criacaoDeClasses.calculadora;
+package javaOOP.abstracao.calculadora;
 
 public class Calculadora {
     public int dobrarNumero(int numero) {

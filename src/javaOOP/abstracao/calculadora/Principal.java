@@ -1,4 +1,4 @@
-package javaOOP.criacaoDeClasses.calculadora;
+package javaOOP.abstracao.calculadora;
 
 public class Principal {
     public static void main(String[] args) {

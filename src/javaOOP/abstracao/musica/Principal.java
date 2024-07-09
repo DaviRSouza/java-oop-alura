@@ -1,4 +1,4 @@
-package javaOOP.criacaoDeClasses.musica;
+package javaOOP.abstracao.musica;
 
 public class Principal {
     public static void main(String[] args) {

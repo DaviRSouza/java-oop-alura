@@ -1,4 +1,4 @@
-package javaOOP.criacaoDeClasses.pessoa;
+package javaOOP.abstracao.pessoa;
 
 public class Principal {
     public static void main(String[] args) {

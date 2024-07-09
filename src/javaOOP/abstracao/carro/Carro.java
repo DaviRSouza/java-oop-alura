@@ -1,4 +1,4 @@
-package javaOOP.criacaoDeClasses.carro;
+package javaOOP.abstracao.carro;
 
 public class Carro {
     String modelo;

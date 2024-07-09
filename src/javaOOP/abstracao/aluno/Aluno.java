@@ -1,4 +1,4 @@
-package javaOOP.criacaoDeClasses.aluno;
+package javaOOP.abstracao.aluno;
 
 public class Aluno {
     String nome;
