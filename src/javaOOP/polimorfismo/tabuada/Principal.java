@@ -1,0 +1,8 @@
+package javaOOP.polimorfismo.tabuada;
+
+public class Principal {
+    public static void main(String[] args) {
+        TabuadaMultiplicacao tabuada = new TabuadaMultiplicacao();
+        tabuada.mostrarTabuada(7); // Exemplo com o número 7
+    }
+}
